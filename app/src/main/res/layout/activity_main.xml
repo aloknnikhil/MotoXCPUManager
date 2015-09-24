@@ -22,22 +22,22 @@
         android:id="@+id/disable2cpu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Disable 2 CPU"/>
+        android:text="Disable 2 Cores"/>
     <Button
         android:id="@+id/disable3cpu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Disable 3 CPU"/>
+        android:text="Disable 3 Cores"/>
     <Button
         android:id="@+id/disable4cpu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Disable 4 CPU"/>
+        android:text="Disable 4 Cores"/>
     <Button
         android:id="@+id/enableallcpu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enable ALL CPU"/>
+        android:text="Enable ALL Cores"/>
     <TextView
         android:id="@+id/numofcpu"
         android:layout_width="match_parent"

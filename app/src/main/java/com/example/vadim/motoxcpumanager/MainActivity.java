@@ -59,6 +59,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
+                EnableAllCPU();
                 DisableNCPU(3);
                 readCpuFreqNow();
             }});
@@ -66,6 +67,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
+                EnableAllCPU();
                 DisableNCPU(2);
                 readCpuFreqNow();
             }});
@@ -73,6 +75,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
+                EnableAllCPU();
                 DisableNCPU(4);
                 readCpuFreqNow();
             }});
@@ -82,7 +85,7 @@ public class MainActivity extends Activity {
 
     private void readCpuFreqNow(){
         File[] cpuFiles = getCPUs();
-        textNumOfCpu.setText("number of cpu: " + cpuFiles.length + ". CPUs frequency:");
+        textNumOfCpu.setText("number of cores: " + cpuFiles.length + ". CPUs frequency:");
 
         String strFileList = "";
         for(int i=0; i<cpuFiles.length; i++){
